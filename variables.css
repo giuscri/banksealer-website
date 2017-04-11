@@ -3042,7 +3042,7 @@ pre {
 .custom-control {
   position: relative;
   display: inline-flex;
-  min-height: 1.5rem;
+  min-height: 1.8rem;
   padding-left: 1.5rem;
   margin-right: 1rem; }
 
@@ -3067,7 +3067,7 @@ pre {
 
 .custom-control-indicator {
   position: absolute;
-  top: 0.25rem;
+  top: 0.4rem;
   left: 0;
   display: block;
   width: 1rem;
@@ -4695,7 +4695,7 @@ button.list-group-item-danger {
 
 .modal-title {
   margin-bottom: 0;
-  line-height: 1.5; }
+  line-height: 1.8; }
 
 .modal-body {
   position: relative;
@@ -4819,8 +4819,8 @@ button.list-group-item-danger {
 .navbar-brand {
   display: inline-block;
   align-self: flex-start;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.275rem;
+  padding-bottom: 0.275rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -5149,7 +5149,7 @@ button.list-group-item-danger {
   font-family: "Titillium Web", sans-serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5387,7 +5387,7 @@ body {
   font-family: "Titillium Web", sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #061728;
   background-color: #fff; }
 
@@ -5797,7 +5797,7 @@ template {
   font-family: "Titillium Web", sans-serif;
   font-style: normal;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
   text-align: start;
   text-decoration: none;
