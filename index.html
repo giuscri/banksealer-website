@@ -22,7 +22,7 @@
   </style>
 </head>
 
-<body data-spy="scroll" data-target="#navbar-target">
+<body data-spy="scroll" data-target=".navbar">
   <nav class="fixed-top navbar navbar-expand-md navbar-light bg-faded">
     <div class="container">
       <a href="http://www.banksealer.com"><img class="center-block d-block" src="brand.png"></a>
@@ -240,10 +240,37 @@
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js "></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js "></script>
   <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js "></script>
-  <script type="text/javascript ">$('body').scrollspy({ target: '#navbar-target' })</script>
+  <script>
+    $(document).ready(function(){
+      // Add scrollspy to <body>
+      $('body').scrollspy({ target: ".navbar" })   
+
+      // Add smooth scrolling on all links inside the navbar
+      $("#navbar-target a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    });
+  </script>
 
 
 </body></html>
