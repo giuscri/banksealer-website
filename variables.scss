@@ -159,3 +159,15 @@ body > * {
   background-repeat: none;
   background-position: center ;
 }
+
+@media (max-width: 575px) {
+  .hidden-xs-down {
+   display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important;
+  }
+}
