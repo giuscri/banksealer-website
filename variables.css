@@ -6016,3 +6016,6 @@ body > * {
 @media (max-width: 767px) {
   .hidden-sm-down {
     display: none !important; } }
+
+#footer-custom {
+  background-color: #091520; }
