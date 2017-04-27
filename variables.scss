@@ -176,7 +176,7 @@ body > * {
   background-color: #091520 !important;
 }
 
-img.Group {
+.Group {
   width: 226px;
   height: 51px;
   object-fit: contain;
@@ -184,7 +184,7 @@ img.Group {
   margin-left: 13%;
 }
 
-p.Banksealer-Srl-Polih {
+.Banksealer-Srl-Polih {
   width: 294px;
   height: 100px;
   font-size: 16px;
@@ -195,7 +195,7 @@ p.Banksealer-Srl-Polih {
   color: #ffffff;
 }
 
-a.infobanksealercom {
+.infobanksealercom {
   width: 263px;
   height: 16px;
   font-size: 16px;
@@ -204,23 +204,37 @@ a.infobanksealercom {
   color: #ff6d00;
 }
 
-p.Copyright-2017-Ban {
+.Copyright-2017-Ban {
   font-size: 16px;
   font-weight: 200;
 }
 
-hr.footerline {
+.footerline {
   background: white;
   opacity: 0.13;
 }
 
-p.Banksealer-partner {
+.Banksealer-partner {
   opacity: 0.45;
   font-size: 14px;
   font-weight: 200;
   margin-top: 23px;
   margin-right: 4%;
+  text-align: right;
   line-height: 1.79;
+}
+
+@media (max-width: 575px) {
+   .Banksealer-partner {
+    text-align: left !important;
+    margin-left: 13%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .Banksealer-partner {
+    text-align: center !important;
+  }
 }
 
 .sn-logo {
