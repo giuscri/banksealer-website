@@ -6004,6 +6004,33 @@ a.text-gray-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.bg-primary {
+  color: #ffffff; }
+
+.bg-success {
+  color: #ffffff; }
+
+.bg-info {
+  color: #ffffff; }
+
+.bg-faded {
+  color: #000000; }
+
+.bg-inverse {
+  color: #ffffff; }
+
+.btn-primary {
+  color: #ffffff; }
+
+.card.card-primary {
+  color: #ffffff; }
+
+.card.card-primary .card-header {
+  color: #ffffff; }
+
+.nav-item a.active {
+  color: #ffffff; }
+
 body > * {
   background-size: cover;
   background-repeat: none;
@@ -6105,3 +6132,15 @@ body > * {
   margin: 16 4px;
   border-left: 1px solid #F2F2F2;
   border-right: 1px solid #FFF; }
+
+.Our-Partners {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #ffffff; }
+
+.Banksealer-is-a-spin {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #ffffff; }
