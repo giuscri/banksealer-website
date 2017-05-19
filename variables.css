@@ -6214,5 +6214,18 @@ body > * {
   text-align: center;
   color: #ffffff; }
 
+.event-date {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #0d1c29; }
+
+.event-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  color: #f76b1c;
+  margin: -20px; }
+
 .white-balance {
   font-weight: 200; }
