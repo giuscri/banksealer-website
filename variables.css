@@ -6044,6 +6044,10 @@ body > * {
   .hidden-sm-down {
     display: none !important; } }
 
+@media (max-width: 1199px) {
+  .hidden-lg-down {
+    display: none !important; } }
+
 #footer-custom {
   background-color: #091520 !important; }
 
