@@ -6224,8 +6224,8 @@ body > * {
   font-size: 22px;
   font-weight: 600;
   text-align: left;
-  color: #f76b1c;
-  margin: -20px; }
+  line-height: 1;
+  color: #f76b1c; }
 
 .white-balance {
   font-weight: 200; }
