@@ -6004,6 +6004,9 @@ a.text-gray-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+body > * {
+  background-size: cover; }
+
 .bg-primary {
   color: #ffffff; }
 
@@ -6025,11 +6028,8 @@ a.text-gray-dark:hover {
 .card.card-primary {
   color: #ffffff; }
 
-.card.card-primary .card-header {
-  color: #ffffff; }
-
-.nav-item a.active {
-  color: #ffffff; }
+.list-group-item {
+  color: #000000; }
 
 body > * {
   background-size: cover;
