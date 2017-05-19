@@ -166,9 +166,83 @@ body > * {
   }
 }
 
+@media (min-width: 576px) {
+  .hidden-sm-up {
+    display: none !important;
+  }
+}
+
 @media (max-width: 767px) {
   .hidden-sm-down {
     display: none !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hidden-lg-down {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-toggleable-md .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  .navbar-toggleable-md > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-toggleable-md {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-toggleable-md .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+  .navbar-toggleable-md > .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-toggleable-md .navbar-collapse {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 100%;
+  }
+  .navbar-toggleable-md .navbar-toggler {
+    display: none;
   }
 }
 
@@ -181,16 +255,16 @@ body > * {
   height: 51px;
   object-fit: contain;
   margin-top: 38px;
-  margin-left: 13%;
+  margin-left: 20%;
 }
 
 .Banksealer-Srl-Polih {
   width: 294px;
-  height: 100px;
+  height: 125px;
   font-size: 16px;
   font-weight: 200;
   margin-top: 20px;
-  margin-left: 13%;
+  margin-left: 20%;
   line-height: 1.56;
   color: #ffffff;
 }
@@ -200,7 +274,7 @@ body > * {
   height: 16px;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 13%;
+  margin-left: 20%;
   color: #ff6d00;
 }
 
@@ -219,7 +293,7 @@ body > * {
   font-size: 14px;
   font-weight: 200;
   margin-top: 23px;
-  margin-right: 4%;
+  margin-right: 8%;
   text-align: right;
   line-height: 1.79;
 }
@@ -227,13 +301,14 @@ body > * {
 @media (max-width: 575px) {
    .Banksealer-partner {
     text-align: left !important;
-    margin-left: 13%;
+    margin-left: 20%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
   .Banksealer-partner {
     text-align: center !important;
+    margin-left: 5%;
   }
 }
 
@@ -279,4 +354,46 @@ body > * {
   margin: 16 4px;
   border-left: 1px solid #F2F2F2;
   border-right: 1px solid #FFF;
+}
+
+.Our-Partners {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Banksealer-is-a-spin {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Leading-security-fir {
+  opacity: 0.4;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 2.14;
+  text-align: center;
+  color: #ffffff;
+}
+
+.event-date {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #0d1c29;
+}
+
+.event-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1;
+  color: #f76b1c;
+}
+
+.white-balance {
+  font-weight: 200;
 }
