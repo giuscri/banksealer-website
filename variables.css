@@ -6155,3 +6155,7 @@ body > * {
 
 .white-balance {
   font-weight: 200; }
+
+.mx-custom {
+  margin-right: 17rem !important;
+  margin-left: 17rem !important; }
