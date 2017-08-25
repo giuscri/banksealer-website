@@ -6067,13 +6067,14 @@ body > * {
   font-size: 14px;
   font-weight: 200;
   margin-top: 60px;
-  margin-left: 1%;
+  margin-left: 8%;
   line-height: 1.79; }
 
 .infobanksealercom {
   height: 16px;
   font-size: 16px;
   font-weight: 600;
+  margin-left: 7%;
   color: #ff6d00; }
 
 .Copyright-2017-Ban {
@@ -6093,10 +6094,6 @@ body > * {
   .Banksealer-partner {
     text-align: center !important;
     margin-left: 5%; } }
-
-@media (max-width: 991px) {
-  .Banksealer-Srl-Polih .Group {
-    margin-left: 5px; } }
 
 .sn-logo {
   width: 233px; }
