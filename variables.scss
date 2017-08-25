@@ -309,6 +309,12 @@ body > * {
   }
 }
 
+@media (max-width: 991px) {
+  .Banksealer-Srl-Polih .Group {
+    margin-left: 5px;
+  }
+}
+
 .sn-logo {
   width: 233px;
 }
@@ -374,21 +380,6 @@ body > * {
   line-height: 2.14;
   text-align: center;
   color: #ffffff;
-}
-
-.event-date {
-  font-size: 18px;
-  font-weight: 600;
-  text-align: left;
-  color: #0d1c29;
-}
-
-.event-title {
-  font-size: 22px;
-  font-weight: 600;
-  text-align: left;
-  line-height: 1;
-  color: #f76b1c;
 }
 
 .white-balance {
