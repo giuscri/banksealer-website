@@ -6081,11 +6081,14 @@ body > * {
 .row-associations {
   margin-left: 20%; }
 
+.row-social {
+  margin-left: 10%; }
+
 .infobanksealercom {
   height: 16px;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 20%;
+  margin-left: 10%;
   color: #ff6d00; }
 
 .Copyright-2017-Ban {
