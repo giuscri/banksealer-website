@@ -6067,14 +6067,17 @@ body > * {
   font-size: 14px;
   font-weight: 200;
   margin-top: 60px;
-  margin-left: 8%;
+  margin-left: 15%;
   line-height: 1.79; }
+
+.row-social {
+  margin-left: 2%; }
 
 .infobanksealercom {
   height: 16px;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 7%;
+  margin-left: 20%;
   color: #ff6d00; }
 
 .Copyright-2017-Ban {
