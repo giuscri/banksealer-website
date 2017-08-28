@@ -279,15 +279,15 @@ body > * {
   opacity: 0.45;
   font-size: 14px;
   font-weight: 200;
-  margin-top: 55px;
-  margin-left: 13%;
+  margin-top: 50px;
+  margin-left: 20%;
 }
 
 .Banksealer-associated {
   opacity: 0.45;
   font-size: 14px;
   font-weight: 200;
-  margin-top: 47px;
+  margin-top: 50px;
   margin-left: 20%;
 }
 
@@ -295,16 +295,15 @@ body > * {
   margin-left: 20%;
 }
 
-.row-social {
-  margin-left: 10%;
-}
-
 .infobanksealercom {
   height: 16px;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 10%;
   color: #ff6d00;
+}
+.padding-icons{
+  vertical-align: middle;
+  padding-top: 5px;
 }
 
 .Copyright-2017-Ban {
@@ -317,6 +316,30 @@ body > * {
   opacity: 0.13;
 }
 
+@media (max-width: 767px) {
+  .Banksealer-associated {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Banksealer-associated {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .row-associations {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .Banksealer-reach {
+    margin-left: 5%;
+  }
+}
+
 @media (max-width: 575px) {
    .Banksealer-partner {
     text-align: left !important;
@@ -324,9 +347,20 @@ body > * {
   }
 }
 
-@media (min-width: 576px) and (max-width: 991px) {
-  .Banksealer-partner {
-    text-align: center !important;
+@media (max-width: 767px) {
+  .Banksealer-reach {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Group  {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .Banksealer-Srl-Polih  {
     margin-left: 5%;
   }
 }
