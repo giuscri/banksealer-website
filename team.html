@@ -34,19 +34,19 @@
       <div id="navbar-target" class="collapse navbar-collapse justify-content-end">
         <ul class="navbar-nav">
           <li class="nav-item text-uppercase">
-            <a class="nav-link" href="index.html/#who">banksealer</a>
+            <a class="nav-link" href="index.html#who">banksealer</a>
           </li>
           <li class="nav-item text-uppercase">
-            <a class="nav-link" href="index.html/#what">key points</a>
+            <a class="nav-link" href="index.html#what">key points</a>
           </li>
           <li class="nav-item text-uppercase">
-            <a class="nav-link" href="index.html/#how">features</a>
+            <a class="nav-link" href="index.html#how">features</a>
           </li>
           <li class="nav-item text-uppercase">
-            <a class="nav-link" href="index.html/#why">Why</a>
+            <a class="nav-link" href="index.html#why">Why</a>
           </li>
           <li class="nav-item text-uppercase">
-            <a class="nav-link" href="index.html/#team">Who we are</a>
+            <a class="nav-link" href="index.html#team">Who we are</a>
           </li>
           <li class="nav-item text-uppercase">
             <a class="nav-link" href="mailto:info@banksealer.com">Contact us</a>
@@ -207,25 +207,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js "></script>
   <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js "></script>
-  <script>
-    $(document).ready(function(){
-      $('body').scrollspy({ target: ".navbar" })   
-
-      $("#navbar-target a").on('click', function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
-          var hash = this.hash;
-
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-       
-            window.location.hash = hash;
-          });
-        }
-      });
-    });
-  </script>
 </body>
 
 </html>
