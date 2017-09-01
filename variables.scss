@@ -365,6 +365,12 @@ body > * {
   }
 }
 
+@media (max-width: 575px) {
+	.michele-mobile {
+  	width: 100% !important;
+	}
+}
+
 .sn-logo {
   width: 233px;
 }
@@ -435,6 +441,12 @@ body > * {
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
+}
+
+@media (max-width: 575px) {
+	.michele-mobile {
+  	width: 100% !important;
+	}
 }
 
 .white-balance {
