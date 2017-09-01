@@ -6178,5 +6178,11 @@ body > * {
   text-align: center;
   color: #ffffff; }
 
+.team-text {
+  font-family: Titillium;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #ffffff; }
+
 .white-balance {
   font-weight: 200; }
