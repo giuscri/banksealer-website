@@ -6202,7 +6202,7 @@ body > * {
   font-weight: 600;
   color: #ffffff; }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .michele-mobile {
     width: 100% !important; } }
 
