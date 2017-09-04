@@ -185,6 +185,12 @@ body > * {
 }
 
 @media (max-width: 991px) {
+  .hidden-md-down {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
   .navbar-toggleable-md .navbar-nav .dropdown-menu {
     position: static;
     float: none;
@@ -247,35 +253,57 @@ body > * {
 }
 
 #footer-custom {
-  background-color: #091520 !important;
+  background-color: #07111a !important;
 }
 
 .Group {
   width: 226px;
   height: 51px;
   object-fit: contain;
-  margin-top: 38px;
+  margin-top: 20px;
   margin-left: 20%;
 }
 
 .Banksealer-Srl-Polih {
-  width: 294px;
-  height: 125px;
+  width: 274px;
+  height: 50px;
   font-size: 16px;
   font-weight: 200;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 20%;
   line-height: 1.56;
   color: #ffffff;
 }
 
+.Banksealer-reach {
+  opacity: 0.45;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.Banksealer-associated {
+  opacity: 0.45;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.row-associations {
+  margin-left: 20%;
+}
+
 .infobanksealercom {
-  width: 263px;
   height: 16px;
   font-size: 16px;
   font-weight: 600;
-  margin-left: 20%;
   color: #ff6d00;
+}
+.padding-icons{
+  vertical-align: middle;
+  padding-top: 5px;
 }
 
 .Copyright-2017-Ban {
@@ -288,14 +316,28 @@ body > * {
   opacity: 0.13;
 }
 
-.Banksealer-partner {
-  opacity: 0.45;
-  font-size: 14px;
-  font-weight: 200;
-  margin-top: 23px;
-  margin-right: 8%;
-  text-align: right;
-  line-height: 1.79;
+@media (max-width: 767px) {
+  .Banksealer-associated {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Banksealer-associated {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .row-associations {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .Banksealer-reach {
+    margin-left: 5%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -305,11 +347,28 @@ body > * {
   }
 }
 
-@media (min-width: 576px) and (max-width: 991px) {
-  .Banksealer-partner {
-    text-align: center !important;
+@media (max-width: 767px) {
+  .Banksealer-reach {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Group  {
     margin-left: 5%;
   }
+}
+
+@media (max-width: 575px) {
+  .Banksealer-Srl-Polih  {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 575px) {
+	.michele-mobile {
+  	width: 100% !important;
+	}
 }
 
 .sn-logo {
@@ -325,24 +384,11 @@ body > * {
 }
 
 .security-rockstar {
-  width: 90px;
+  width: 95px;
 }
 
 .digital-awards {
   width: 166px;
-}
-
-.Finalist {
-  font-size: 11px;
-  font-weight: 200;
-  line-height: 2.27;
-  margin-top: 12px;
-}
-
-.Finalist2 {
-  font-size: 11px;
-  font-weight: 200;
-  margin-top: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -370,6 +416,12 @@ body > * {
   color: #ffffff;
 }
 
+.Discover-the-team {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.88;
+}
+
 .Leading-security-fir {
   opacity: 0.4;
   font-size: 14px;
@@ -379,19 +431,28 @@ body > * {
   color: #ffffff;
 }
 
-.event-date {
-  font-size: 18px;
-  font-weight: 600;
-  text-align: left;
-  color: #0d1c29;
+.team-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #ffffff;
 }
 
-.event-title {
-  font-size: 22px;
+.team-name {
+  font-size: 24px;
   font-weight: 600;
-  text-align: left;
-  line-height: 1;
-  color: #f76b1c;
+}
+
+.team-roles {
+  margin-top: -25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+	.michele-mobile {
+  	width: 100% !important;
+	}
 }
 
 .white-balance {
