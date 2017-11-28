@@ -6138,6 +6138,10 @@ body > * {
   .michele-mobile {
     width: 100% !important; } }
 
+@media (max-width: 991px) {
+  .bg-we-are-hiring {
+    margin-right: 84%; } }
+
 .sn-logo {
   width: 233px; }
 
