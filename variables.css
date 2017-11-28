@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 * Bootstrap 4.0.0-alpha.6 (https://getbootstrap.com)
 * Copyright 2011-2017 The Bootstrap Authors
@@ -5976,7 +5975,7 @@ body > * {
   background-position: center; }
 
 @media (max-width: 575px) {
-  .¢-xs-down {
+  .hidden-xs-down {
     display: none !important; } }
 
 @media (min-width: 576px) {
