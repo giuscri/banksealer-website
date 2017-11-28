@@ -377,6 +377,12 @@ body > * {
   }
 }
 
+@media (max-width: 767px) {
+  .bg-we-are-hiring {
+    margin-right: 75%;
+  }
+}
+
 @media (max-width: 575px) {
   .bg-we-are-hiring {
     margin-right: 65%;
