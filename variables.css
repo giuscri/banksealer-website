@@ -6138,6 +6138,18 @@ body > * {
   .michele-mobile {
     width: 100% !important; } }
 
+@media (max-width: 991px) {
+  .bg-we-are-hiring {
+    margin-right: 84%; } }
+
+@media (max-width: 767px) {
+  .bg-we-are-hiring {
+    margin-right: 78%; } }
+
+@media (max-width: 575px) {
+  .bg-we-are-hiring {
+    margin-right: 65%; } }
+
 .sn-logo {
   width: 233px; }
 
@@ -6152,6 +6164,12 @@ body > * {
 
 .digital-awards {
   width: 166px; }
+
+.cetif {
+  width: 32px; }
+
+.fintech {
+  width: 122px; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: rgba(247, 107, 28, 0.9); }
@@ -6208,3 +6226,23 @@ body > * {
 
 .white-balance {
   font-weight: 200; }
+
+.rectangle-hiring {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+
+.open-position {
+  font-weight: 600; }
+
+.hiring-button {
+  font-weight: 200;
+  background-color: #f76b1c; }
+
+.bg-we-are-hiring {
+  border-radius: 4px;
+  background-color: #f76b1c;
+  font-weight: 200; }
+
+.cover-padding {
+  padding-top: 13em;
+  padding-bottom: 13em; }
